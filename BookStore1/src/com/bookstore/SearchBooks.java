@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class SearchBooks
  */
-@WebServlet(description = "to search books subject wise", urlPatterns = { "/SearchBooks" })
+@WebServlet("/SearchBooks")
 public class SearchBooks extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private Connection con;
